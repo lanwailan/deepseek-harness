@@ -1,0 +1,8 @@
+# 自己功能的 overlay，叠加在官方 profile 之上，只插入新行、不改官方的行。
+# 插件路径写成相对本目录的 './...'，dev.mjs 启动时会换成绝对路径
+# （loader 只接受绝对路径）。
+# 启动：node packages/lanwailan/dev.mjs web
+
+- insert:
+    - id: lanwailan-hello
+      name: './hello/src/index.ts'

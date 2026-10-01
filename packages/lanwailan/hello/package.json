@@ -1,0 +1,17 @@
+{
+  "name": "@lanwailan/dsh-hello",
+  "description": "示例插件：注册一个 greet 工具",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc -b"
+  },
+  "dependencies": {
+    "@deepseek-ai/cordis": "workspace:^",
+    "@deepseek-ai/dsh-tools": "workspace:^"
+  }
+}

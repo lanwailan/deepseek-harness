@@ -9488,6 +9488,15 @@ importers:
         specifier: workspace:*
         version: link:../../core/tools
 
+  packages/lanwailan/hello:
+    dependencies:
+      '@deepseek-ai/cordis':
+        specifier: workspace:^
+        version: link:../../../vendor/cordis
+      '@deepseek-ai/dsh-tools':
+        specifier: workspace:^
+        version: link:../../core/tools
+
   packages/llm/deepseek-llm-api-extensions:
     devDependencies:
       '@deepseek-ai/cordis':
